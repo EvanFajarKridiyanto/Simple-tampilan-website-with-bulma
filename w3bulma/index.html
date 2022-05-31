@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Evan</title>
+	<link rel="icon" href="title.jpg" type="image/gif" sizes="16x16">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+<nav class="navbar is-primary">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <p>Code Evan</p>
+    </a>
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-end">
+	
+      <a class="navbar-item" href="index.html">
+        Home
+      </a>
+	  <a class="navbar-item" href="tutorial.html">
+        Tutorial
+      </a>
+	  
+  </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+
+$(document).ready(function() {
+
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+</script>
+
+
+
+<div class="columns">
+  <div class="column is-two-quarters">
+  <img src="1.jpg">
+  </div>
+  <style>
+  img{
+  width:600px;
+  height:400px;
+  margin-top:40px;
+  }
+
+  h1 {
+  font-height:bold;
+  font-size:35px;
+  margin-top:35px;
+  font-family:comic sans;
+  }
+  p{
+    font-size:20px;
+  margin-top:10px;
+  font-family:comic sans;
+  text-decoation:none;
+  font-height:bold;
+  }
+  .button{
+  margin-top:20px;
+  }
+  </style>
+  <div class="column">
+  <h1><strong>Apa itu coding?</strong></h1>
+  <p>Coding adalah salah satu tindakan dari langkah-langkah pemrograman dengan menuliskan kode atau skrip dalam bahasa pemrograman.</p>
+  <a href="tutorial.html"><button type="button" class="button is-primary is-outlined">Selengkapnya</button></a>
+  </div>
+</div>
+
+
+
+
+
+<center  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"><h1><strong>Website buat belajar coding</strong></h1></center>
+<style>
+center {
+margin-top:3rem;
+}
+
+
+</style>
+<div class="columns" style="margin-bottom:2rem;" >
+  <div class="column" >
+    <figure class="image is-120x120">
+  <img data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="is-rounded" src="2.jpg"  >
+  <p><center><strong><a href="https://www.w3schools.com/">W3 SCHOOLS</p></strong></center></a>
+  
+</figure>
+  </div>
+  <div class="column">
+   <figure class="image is-120x120">
+  <img  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="is-rounded" src="3.jpg">
+   <p><center><strong><a href="https://www.petanikode.com/">PETANI KODE</p></strong></center></a>
+</figure>
+  </div>
+  <div class="column">
+    <figure class="image is-120x120">
+  <img  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="is-rounded" src="4.jpg">
+  <p><center><strong><a href="https://www.udemy.com/courses/development/web-development/">UDEMY</p></strong></center></a>
+</figure>
+  </div>
+  <div class="column">
+   <figure class="image is-120x120">
+  <img  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="is-rounded" src="5.jpg">
+  <p><center><strong><a href="https://www.sololearn.com/home">SOLO LEARN</p></strong></center></a>
+</figure>
+  </div>
+</div>
+
+
+<div class="column" style="background-color:#000000">
+<h1><center><strong><a href="">Tips buat belajar coding</h1></strong></center></a>
+<p><center>1.Codinglah di tempat berbeda. <br>
+2.Gunakan bahasa pemrograman / framework yang berbeda. <br>
+3.Gunakan code editor yang berbeda.<br> 
+4.Codinglah untuk sesuatu yang menyenangkan.<br>
+5.Jangan lupa berdoa juga yaaa.
+</p></center>
+  </div>
+
+
+<div class="">
+<figure class="image is-16by9" style="margin-top:2rem;">
+  <center><img  data-aos="fade-right" src="yy.jpg" ></center>
+</figure>
+
+
+
+
+
+<footer class="footer"style="margin-top:2rem;">
+  <div class="content has-text-centered ">
+    <p>
+      <strong>Code Evan</strong> by <a href="https://github.com/EvanFajarKridiyanto">Evan Fajar</a>.2022
+      <a href="https://bulma.io/">Made with bulma</a>
+      ,Semangat ya  <a href=""></a>.
+    </p>
+  </div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	    AOS.init();
+	</script>
+  </body>
+</html>

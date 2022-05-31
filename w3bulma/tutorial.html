@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Evan</title>
+	<link rel="icon" href="title.jpg" type="image/gif" sizes="16x16">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+<nav class="navbar is-primary">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">
+      <p>Code Evan</p>
+    </a>
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="index.html">
+        Home
+      </a>
+	  <a class="navbar-item" href="tutorial.html">
+        Tutorial
+      </a>
+	  <div class="navbar-end">
+      <div class="navbar-item">
+  </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+
+});
+
+$(document).ready(function() {
+
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+</script>
+
+
+<div class="columns">
+  <div class="column is-two-quarters">
+  <img src="6.jpg">
+  </div>
+  <style>
+  img{
+  width:800px;
+  height:400px;
+  margin-top:40px;
+  }
+
+  h1 {
+  font-height:bold;
+  font-size:35px;
+  margin-top:35px;
+  font-family:comic sans;
+  }
+  p{
+    font-size:20px;
+  margin-top:10px;
+  font-family:comic sans;
+  text-decoation:none;
+  font-height:bold;
+  }
+  .button{
+  margin-top:20px;
+  }
+
+  </style>
+  <div class="column">
+  <h1><strong>Masih mengalami kesulitan?</strong></h1>
+  <p><a>Tenang aja namanya juga belajar,tonton dulu aja vidio youtubenya.jangan lupa makan,SEMANGATTTTTT!!</p></a>
+
+  </div>
+</div>
+
+
+
+<div class="columns" style="margin-top:6rem">
+  <div  data-aos="fade-right"class="column is-two-quarters">
+<iframe width="600" height="300" src="https://www.youtube.com/embed/A2rj60uKFyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <div  data-aos="fade-left"class="column-end">
+  <iframe width="600" height="300" src="https://www.youtube.com/embed/LooycZiMn6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ <div class="columns" style="margin-top:6rem">
+  <div  data-aos="fade-right"class="column is-two-quarters">
+<iframe width="600" height="300" src="https://www.youtube.com/embed/UphMeQiL4Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ <div  data-aos="fade-left" class="column-end">
+ <iframe width="600" height="300" src="https://www.youtube.com/embed/sKrri__gMIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ </div>
+ 
+ 
+ <footer class="footer"style="margin-top:6rem;">
+  <div class="content has-text-centered ">
+    <p>
+      <strong>Code Evan</strong> by <a href="https://github.com/EvanFajarKridiyanto">Evan Fajar</a>.2022
+      <a href="https://bulma.io/">Made with bulma</a>
+      ,Semangat ya  <a href=""></a>.
+    </p>
+  </div>
+</footer>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	    AOS.init();
+	</script>
+	
+	</body>
+</html>
+ 
+ 
